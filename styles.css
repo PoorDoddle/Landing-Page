@@ -6,8 +6,12 @@ body {
   padding: 0;
   font-family: "Roboto";
 }
+button {
+  margin: 0;
+  padding: 0;
+}
 .header {
-  margin: 0 5em;
+  margin: 0 108px;
   display: flex;
   justify-content: space-between;
   color: #f9faf8;
@@ -15,7 +19,7 @@ body {
 }
 .links {
   display: flex;
-  gap: 1em;
+  gap: 16px;
   align-items: center;
 }
 a {
@@ -26,12 +30,12 @@ a {
 .section-1-button {
   background-color: #3882f6;
   color: white;
-  padding: 1em 2em;
-  border-radius: 1em;
+  padding: 16px 32px;
+  border-radius: 16px;
 }
 .section-1 {
   color: white;
-  margin: 2em 7em;
+  margin: 32px 108px;
   display: flex;
   justify-content: space-between;
 }
@@ -40,7 +44,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
-  padding: 2em;
+  padding: 48px;
   color: black;
 }
 .section-2 {
@@ -51,25 +55,29 @@ a {
   align-items: center;
 }
 .random-info {
-  margin-bottom: 4em;
+  display: flex;
+  margin-bottom: 72px;
 }
 .section-2-imgs {
   display: flex;
-  gap: 3em;
 }
 .random-info-img {
-  width: 150px;
-  height: 150px;
+  display: flex;
+  width: 50%;
+  padding-bottom: 50%;
   border-color: #3882f6;
   border-style: solid;
-  border-width: 0.3em;
-  border-radius: 1em;
+  border-width: 4px;
+  border-radius: 12.5%;
 }
 .section-2-ps {
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+}
+.section-2-p-p {
+  width: 50%;
 }
 .section-3 {
   background-color: #e5e7eb;
@@ -77,30 +85,37 @@ a {
   padding: 3em;
 }
 .quote {
-  margin: 2em 5em;
+  display: flex;
+
   font-size: 36px;
   font-weight: lighter;
   color: #1f2937;
 }
 .thor {
+  display: flex;
   font-weight: bold;
-  margin-left: 17em;
 }
 .section-4 {
   background-color: white;
+  padding: 0;
+  margin: 0;
 }
 .section-4-container {
   background-color: #3882f6;
   display: flex;
   justify-content: space-between;
-  margin: 2em 15em;
+  margin: 2em 48px;
   padding: 2em;
   border-radius: 1em;
+  color: white;
 }
 .section-4-button {
   background-color: #3882f6;
   border-radius: 1em;
-  padding: 0 2em;
+  padding: 0 2em 0 2em;
+  color: white;
+  border-color: white;
+  border-style: solid;
 }
 .footer {
   text-align: center;
